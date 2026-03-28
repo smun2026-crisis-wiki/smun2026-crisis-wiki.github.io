@@ -30,6 +30,7 @@ function MOTC() {
                     <li>Kaohsiung Port Land Development Corporation, Ltd.</li>
                 </ul>
             </div>
+                    <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
         </div>
     )
 }

@@ -53,7 +53,7 @@ function Army() {
                     <li>M24 Chaffee Tanks - Yet to arrive from the United States</li>
                 </ul>
             </div>
-        </div>
+<img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>        </div>
     )
 
 

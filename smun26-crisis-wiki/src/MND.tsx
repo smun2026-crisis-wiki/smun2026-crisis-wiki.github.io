@@ -47,6 +47,7 @@ function MND() {
                     <li>Republic of China Military Academy (中華民國陸軍軍官學校)</li>
                 </ul>
             </div>
+                    <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
         </div>
     )
 }

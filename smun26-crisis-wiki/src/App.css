@@ -83,6 +83,9 @@ p {
 
 .KMT-emblem {
   width: 20vw;
+  animation-name: zoomoutin;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes funny {
@@ -99,6 +102,20 @@ p {
   100% {
     font-size: small;
     color: blue
+  }
+}
+
+@keyframes zoomoutin {
+  0%{
+    width: 80vw;
+  }
+  50%{
+    position:sticky;
+    z-index: 1;
+    width: 1px;
+  }
+  100%{
+    width:80vw;
   }
 }
 
