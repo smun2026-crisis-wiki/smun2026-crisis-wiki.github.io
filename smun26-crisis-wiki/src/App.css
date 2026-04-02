@@ -37,6 +37,16 @@ p {
   border-right: 1px solid #ddd;
 }
 
+.sideBanner{
+  height:"100vh"; 
+  width:"20vw"; 
+  flex:"1"; 
+  position:"sticky"; 
+  top:"0"; 
+  right:"0";
+}
+
+
 .headSelect {
   background-color: gold !important;
 }
@@ -107,7 +117,7 @@ p {
 
 @keyframes zoomoutin {
   0%{
-    width: 80vw;
+    width: 50vw;
   }
   50%{
     position:sticky;
@@ -115,7 +125,7 @@ p {
     width: 1px;
   }
   100%{
-    width:80vw;
+    width:50vw;
   }
 }
 

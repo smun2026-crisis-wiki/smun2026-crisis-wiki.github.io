@@ -1,5 +1,5 @@
 import KMTLogo from '/Emblem_of_the_Kuomintang.png';
-
+import KMTFlag from '/KMTFlag.gif';
 import './App.css';
 import Sidebar from './Sidebar';
 
@@ -10,6 +10,8 @@ function Homepage(){
         <div className="container">
         <Sidebar/>
         <div style={{flex:"5"}}>
+        <embed src={KMTFlag} style={{width:"15vw"}}></embed>
+        <br/>
         <img src={KMTLogo} className='KMT-emblem'></img>
          <h1 style={{fontSize:'7vw', textAlign:'center'}} id="greeting"> I hate communists </h1>
          </div>
