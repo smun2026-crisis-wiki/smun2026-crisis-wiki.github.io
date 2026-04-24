@@ -14,7 +14,7 @@ function linfamily(){
 </p>
                 <h1>Key Developments</h1>
 <p>The early 20th century saw the Lin family’s wealth surge to record proportions, with family holdings and subsidiaries in Guangzhou expanding rapidly. Its wealth was consolidated in agricultural investments and light industrial ventures, maintained by Confucian values and firm adherence to bookkeeping. </p>
-<p>However, the Second Sino-Japanese War Wartime severely impacted the Lin family’s prosperity. In their haste to leave the mainland, large portions of their wealth had to be relocated, while others were lost due to mismanagement and hasty decisions by senior family members.</p>
+<p>However, the Second Sino-Japanese War Wartime severely impacted the Lin family’s prosperity. In their haste to leave the mainland, large portions of their wealth had to be relocated, while others were lost due to mismanagement and hasty decisions by senior family members.To be clear, they do not hold any more land on the Mainland.</p>
             </div>
             <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
         </div>
