@@ -6,8 +6,8 @@ function Army() {
     return (
         <div className="container">
             <Sidebar />
-            <div style={{ flex: "5" }}>
-                <img src={ArmyLogo}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={ArmyLogo} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>The Republic of China Army (陆军) originated from the National Revolutionary Army of the Nationalist Chinese regime, which was founded by Sun Yat-sen's Kuomintang (KMT) in 1924, when the Whampoa Military Academy was established with Soviet military assistance.</p>
 

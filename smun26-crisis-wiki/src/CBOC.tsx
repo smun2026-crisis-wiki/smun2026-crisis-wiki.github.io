@@ -6,8 +6,8 @@ function CBOC(){
     return(
         <div className="container">
             <Sidebar/>
-            <div style={{flex: "5"}}>
-            <img src={CBOCpng}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+            <img src={CBOCpng} className="topLogo"></img>
             <h1>General Overview</h1>
             <p>The primary monetary authority of the Republic of China is the Central Bank of China (CBC), which oversees the monetary policy of the ROC. The CBC was founded in 1924 so as to curtail the monetary hyperinflation of the greatly unstable ROC government at the time; at the time, it was led by  Song Ziwen and would slowly grow in influence as the Goumindang sought to reform and develop China’s economy. As an institution responsible for managing all aspects of monetary policy, including the exchange rate of the New Taiwan Dollar (NT$) and interest rates, it operates independently of the Goumindang and is governed by a group of technocrats. </p>
             <h2>Assets</h2>
@@ -37,7 +37,7 @@ Department of Banking</li>
 <li>Legal Affairs Office</li>
                 </ul>
                 </div>
-            <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
     )
 }

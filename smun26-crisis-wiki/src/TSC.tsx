@@ -6,8 +6,8 @@ function tsc(){
     
             <div className='container'>
             <Sidebar/>
-            <div style={{flex:"5"}}>
-                <img src={TSC} alt="TSC Logo"></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={TSC} alt="TSC Logo" className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>The Taiwan Shipbuilding Corporation was a state-managed industrial enterprise established in the early years of the Republic of China’s relocation to Taiwan. Its main goal was to develop Taiwan’s shipbuilding capacity, as during this period, having control over production of maritime logistics concerned the nation’s survival.</p>
                 <p>By 1950, Taiwan’s vulnerability to disruption caused by naval blockade from the Chinese Communist Party meant that the Taiwan Shipbuilding Corporation was operating under a dual mandate. While it had to shore up production of commercial ships, it also was responsible for building Taiwan’s military naval assets.</p>
@@ -23,9 +23,10 @@ function tsc(){
                     <li>Warehousing facilities with a combined storage capacity of 80 thousand tonnes</li>
                     <li>Administrative headquarters located in Taipei</li>
                 </ul>
+
             </div>
-            <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
-        </div>
+                            <img src='/bestBanner.jpeg' className='sideBanner'/>
+                            </div>
         
     )
 }

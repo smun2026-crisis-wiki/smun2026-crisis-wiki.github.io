@@ -8,8 +8,8 @@ function MOTC() {
 
         <div className="container">
             <Sidebar />
-            <div style={{ flex: "5" }}>
-                <img src={KMTEmblem} ></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={KMTEmblem} className="topLogo" ></img>
                 <h1>Introduction</h1>
                 <p>The Ministry of Transportation and Communications was formed after the merger of the posts of the Ministry of Transportation under the Republic of China and the Communications Department of the Transportation Bureau of the Governor-General of Taiwan. In Taiwan, the Ministry of Transportation and Communications is responsible for making policy, formulating laws and regulations, and overseeing operations in the area of transportation and communication, while also overseeing operations in meteorology as well. </p>
                 <p>Communications operations encompass postal services, managed by the Chunghwa Post, and telecommunications. Meanwhile, transportation operations are divided into three modes: land, air, and sea transport. </p>
@@ -30,7 +30,7 @@ function MOTC() {
                     <li>Kaohsiung Port Land Development Corporation, Ltd.</li>
                 </ul>
             </div>
-                    <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
     )
 }

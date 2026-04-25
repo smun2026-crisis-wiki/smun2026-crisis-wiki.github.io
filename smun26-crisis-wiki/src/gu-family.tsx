@@ -6,8 +6,8 @@ function template(){
     
             <div className='container'>
             <Sidebar/>
-            <div style={{flex:"5"}}>
-                <img src={guJia}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={guJia} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>The Koos family is one of Taiwan’s most prominent business families, with roots tracing back to the late Qing Dynasty and the Japanese colonial period. Originating from southern Taiwan, the family rose to prominence through landownership, sugar production, and later industrial and financial enterprises.</p>
                 <p>Among its most notable members is Gu Zhenfu, a businessman who would go on to lead the Koos Group, a family-owned business that spans sectors such as cement making, finance, shipbuilding, and light manufacturing. Following the retreat of the Kuomintang government to Taiwan in 1949, the Gu family has positioned itself well within the new political and economic order to leverage its connections with the KMT and mainland elites to maintain and expand its influence.</p>
@@ -16,7 +16,7 @@ function template(){
                 <p>In the immediate post-war years, Gu Zhenfu faced political scrutiny and was briefly imprisoned under accusations of collaboration with Japanese authorities. Despite this, Gu eventually regained his standing in Taiwanese society, rebuilding his company. </p>
             </div>
 
-            <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
         
     )

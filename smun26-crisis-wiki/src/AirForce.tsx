@@ -6,8 +6,8 @@ function AirForce(){
     return(
         <div className='container'>
             <Sidebar />
-            <div style={{ flex: "5" }}>
-                <img src={AirLogo}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={AirLogo} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>
                     The Republic of China Air Force (ROCAF), also known as the 国军空军(guojun kongjun) is the military aviation branch of the ROC’s Military. The history of the ROCAF traces back to the 1920s when military aviation was first used in the National Revolutionary Army. 
@@ -37,7 +37,7 @@ Currently, the main mission of the ROCAF, following the retreat of the Kuomintan
                     <li>Curtiss C-46 Commando (Military Transport)</li>
                 </ul>
             </div>
-<img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
     )
 } 

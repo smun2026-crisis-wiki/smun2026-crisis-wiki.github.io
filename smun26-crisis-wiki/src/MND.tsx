@@ -8,8 +8,8 @@ function MND() {
 
         <div className="container">
             <Sidebar />
-            <div style={{ flex: "5" }}>
-                <img src={KMTEmblem}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={KMTEmblem} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>The Ministry of National Defence is responsible for all defense and military affairs of Taiwan. To carry out this responsibility, it has multiple headquarters departments for specific duties and military authority over the Army, Navy, and Air Force commands, along with control over the administration of the Republic of China Military Academy, formerly known as Whampoa Military Academy. </p>
                 <p>It was originally established as the Ministry of War in 1912 when the Republic of China was founded. The Ministry of War established a military occupation operation center in Taipei, Formosa in November 1945, following the Supreme Commander for the Allied Powers Douglas MacArthur's September 2, 1945 General Order No. 1, for the surrender of Japanese troops and auxiliary forces in Formosa and the Pescadores to Generalissimo Chiang Kai-shek. It was renamed as the Ministry of National Defense in 1946.</p>
@@ -47,7 +47,7 @@ function MND() {
                     <li>Republic of China Military Academy (中華民國陸軍軍官學校)</li>
                 </ul>
             </div>
-                    <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
     )
 }

@@ -1,146 +1,371 @@
+/* 90s Formal Website Stylesheet - Mobile Responsive */
+
+* {
+  font-family: Georgia, "Times New Roman", serif;
+  box-sizing: border-box;
+}
+
 #root {
-  max-width: 100vw;
-  background-color: white;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #c0c0c0;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.1) 0px,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
   text-align: center;
+  color: #000080;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
   display: flex;
   flex-direction: row;
+  border: 3px outset #dfdfdf;
+  background-color: #c0c0c0;
+  width: 100%;
+  min-height: 100vh;
+  gap: 0;
 }
 
 li {
   text-align: left;
-  font-size: 2vw;
+  font-size: clamp(14px, 2vw, 24px);
+  color: #000080;
+  margin: 8px 0;
 }
 
 #greeting {
-  animation-name: funny;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  font-size: clamp(24px, 5vw, 48px);
+  font-weight: bold;
+  color: #000080;
+  padding: clamp(15px, 5vw, 30px);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #000080;
+  margin: 10px;
 }
 
 p {
-  font-size: 2vw;
+  font-size: clamp(14px, 2vw, 20px);
   text-align: justify;
-  padding: 10px;
-  padding-bottom: 0px;
+  padding: clamp(10px, 3vw, 20px);
+  color: #000080;
+  line-height: 1.8;
 }
 
 .sidebar {
-  flex: 1;
-  position: relative;
-  top: 0;
+  flex: 0 0 auto;
+  min-width: 200px;
   width: auto;
-  height: 300vh;
-  background-color: #f0f0f0;
-  border-right: 1px solid #ddd;
+  max-width: 300px;
+  background-color: #c0c0c0;
+  border-right: 3px outset #dfdfdf;
+  border-left: 3px inset #808080;
+  padding: 15px;
+  overflow-y: auto;
+  height: fit-content;
 }
 
-.sideBanner{
-  height:"100vh"; 
-  width:"20vw"; 
-  flex:"1"; 
-  position:"sticky"; 
-  top:"0"; 
-  right:"0";
+.sideBanner {
+  display: none;
+  height: 100vh;
+  width: 20vw;
+  flex: 0 0 auto;
+  position: sticky;
+  top: 0;
+  right: 0;
+  border: 2px outset #dfdfdf;
+  background-color: #c0c0c0;
+  padding: 10px;
+  object-fit: cover;
 }
-
 
 .headSelect {
-  background-color: gold !important;
+  background-color: #c0c0c0 !important;
+  border: 2px outset #dfdfdf !important;
+  color: #000080 !important;
+  font-weight: bold;
+  padding: 8px 12px !important;
+  display: block !important;
+  text-decoration: underline !important;
+  width: 100%;
+  text-align: left;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  cursor: pointer;
 }
 
-.headSelect:hover{
-  background-color: goldenrod !important;
+.headSelect:hover {
+  border-style: inset !important;
+  background-color: #000080 !important;
+  color: #c0c0c0 !important;
+}
+
+.topLogo{
+  width: clamp(100px, 80%, 400px);
+  border: 3px outset #dfdfdf;
+  padding: 5px;
+  background-color: #c0c0c0;
+  margin: 20px auto;
+  max-height: clamp(120px, 30vh, 500px);
+  object-fit: contain;
 }
 
 .sidebar a {
   display: block;
-  padding: 5px 5px;
-  font-size: 2vw;
-  color: #0037ff;
-  text-decoration: none;
-  background-color: #ddd;
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
-  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: clamp(12px, 1.5vw, 18px);
+  color: #000080;
+  text-decoration: underline;
+  background-color: #c0c0c0;
+  margin-top: 8px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 2px outset #dfdfdf;
+  border-radius: 0;
+  cursor: pointer;
 }
 
 .sidebar a:hover {
-  background-color: grey;
+  background-color: #000080;
+  color: #c0c0c0;
+  border-style: inset;
+}
+
+.sidebar a:active {
+  border-style: inset;
 }
 
 .sidebar button {
   display: block;
   text-decoration: none;
-  margin-left: 5px;
-  margin-top: 5px;
-  width: 90%;
-  font-size: 2vw;
-  padding: 2px;
+  margin-left: 0;
+  margin-top: 8px;
+  width: 100%;
+  font-size: clamp(12px, 1.5vw, 18px);
+  padding: 10px 12px;
+  background-color: #c0c0c0;
+  border: 2px outset #dfdfdf;
+  color: #000080;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: left;
 }
 
 .sidebar button:hover {
-  text-decoration: none;
+  border-style: inset;
+  background-color: #f0f0f0;
+}
+
+.sidebar button:active {
+  border-style: inset;
 }
 
 .sidebar u {
   display: block;
-  font-size: 1.7vw;
+  font-size: clamp(13px, 1.7vw, 20px);
+  color: #000080;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0 8px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000080;
+}
+
+.topLogo {
+  width: clamp(100px, 80%, 400px);
+  border: 3px outset #dfdfdf;
+  padding: 5px;
+  background-color: #c0c0c0;
+  margin: 20px auto;
+  max-height: clamp(120px, 30vh, 500px);
+  object-fit: contain;
 }
 
 .KMT-emblem {
-  width: 20vw;
-  animation-name: zoomoutin;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  width: clamp(100px, 80%, 400px);
+  border: 3px outset #dfdfdf;
+  padding: 5px;
+  background-color: #c0c0c0;
+  margin: 20px auto;
 }
 
-@keyframes funny {
-  0% {
-    font-size: small;
-    color: blue;
+embed {
+  width: clamp(100px, 80%, 250px);
+  margin: 20px auto;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Content area flex adjustment */
+.container > div:nth-child(2) {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(10px, 3vw, 30px);
+  overflow: auto;
+}
+
+/* Tablet and Desktop (800px and up) */
+@media screen and (min-width: 800px) {
+  .sideBanner {
+    display: block;
   }
 
-  50% {
-    font-size: 7vw;
-    color: red
+  .sidebar {
+    flex: 0 0 280px;
+    height: auto;
+    max-height: none;
   }
 
-  100% {
-    font-size: small;
-    color: blue
+  .container {
+    flex-direction: row;
   }
 }
 
-@keyframes zoomoutin {
-  0%{
-    width: 50vw;
+/* Mobile Optimization (under 800px) */
+@media screen and (max-width: 799px) {
+  .container {
+    flex-direction: column;
+    min-height: auto;
   }
-  50%{
-    position:sticky;
-    z-index: 1;
-    width: 1px;
+
+  .sidebar {
+    width: 100%;
+    max-width: none;
+    border-right: none;
+    border-bottom: 3px outset #dfdfdf;
+    max-height: none;
   }
-  100%{
-    width:50vw;
+
+  .sideBanner {
+    display: none !important;
+  }
+
+  p {
+    font-size: clamp(14px, 4vw, 18px);
+    padding: clamp(10px, 3vw, 15px);
+  }
+
+  li {
+    font-size: clamp(13px, 3vw, 18px);
+  }
+
+  #greeting {
+    font-size: clamp(20px, 6vw, 36px);
+    padding: clamp(12px, 4vw, 20px);
+  }
+
+  .topLogo {
+    width: clamp(80px, 90%, 300px);
+    margin: 15px auto;
+  }
+
+  .KMT-emblem {
+    width: clamp(80px, 90%, 300px);
+  }
+
+  embed {
+    width: clamp(80px, 90%, 200px);
+  }
+
+  .sidebar a {
+    font-size: clamp(13px, 3vw, 16px);
+    padding: 8px 10px;
+  }
+
+  .sidebar button {
+    font-size: clamp(13px, 3vw, 16px);
+    padding: 8px 10px;
+  }
+
+  .sidebar u {
+    font-size: clamp(12px, 2.5vw, 16px);
   }
 }
 
-@media screen and (max-width:600px) {
-  p{
-    font-size: 3vw;
+/* Small Mobile Phones (under 480px) */
+@media screen and (max-width: 479px) {
+  .container {
+    border: 2px outset #dfdfdf;
   }
 
-  li{
-    font-size: 3vw;
+  p {
+    font-size: clamp(13px, 5vw, 16px);
+    padding: 8px;
   }
 
-  .sidebar button{
-    margin-left: 3px;
-    text-align: center;
+  li {
+    font-size: clamp(12px, 4vw, 15px);
   }
-  
+
+  #greeting {
+    font-size: clamp(18px, 7vw, 28px);
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .KMT-emblem {
+    width: clamp(70px, 85%, 250px);
+    margin: 15px auto;
+  }
+
+  embed {
+    width: clamp(70px, 85%, 180px);
+  }
+
+  .sidebar {
+    padding: 10px;
+    border-left: none;
+  }
+
+  .sidebar a {
+    font-size: clamp(12px, 3.5vw, 14px);
+    padding: 6px 8px;
+    margin-top: 5px;
+  }
+
+  .sidebar button {
+    font-size: clamp(12px, 3.5vw, 14px);
+    padding: 6px 8px;
+    margin-top: 5px;
+  }
+
+  .sidebar u {
+    font-size: clamp(11px, 2.8vw, 14px);
+    margin: 10px 0 5px 0;
+    padding-bottom: 5px;
+  }
+
+  .container > div:nth-child(2) {
+    padding: clamp(8px, 2vw, 15px);
+  }
+}
+
+/* Extra Large Screens (1400px and up) */
+@media screen and (min-width: 1400px) {
+  .sidebar {
+    flex: 0 0 320px;
+  }
+
+  .container > div:nth-child(2) {
+    flex: 1;
+  }
+
+  .sideBanner {
+    flex: 0 0 280px;
+  }
 }

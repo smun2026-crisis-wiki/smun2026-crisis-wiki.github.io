@@ -6,8 +6,8 @@ function template(){
     
             <div className='container'>
             <Sidebar/>
-            <div style={{flex:"5"}}>
-                <img src={Taipower}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={Taipower} className="topLogo"></img>
                 <h1></h1>
                 <p></p>
                 <h1></h1>
@@ -21,7 +21,7 @@ function template(){
                     <li></li>
                     <li></li>
                 </ul>
-            <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
         
     )

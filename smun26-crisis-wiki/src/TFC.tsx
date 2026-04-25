@@ -6,8 +6,8 @@ function tfc(){
     
             <div className='container'>
             <Sidebar/>
-            <div style={{flex:"5"}}>
-                <img src={TFC}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={TFC} className="topLogo"></img>
                 <h1>General Overview</h1>
                 <p>Established on May 1st, 1946 as a state-owned enterprise under the Resources Committee of the Ministry of Economic Affairs (MOEA) and the Taiwan Provincial Government, the Taiwan Fertiliser Company is a state-owned company focusing on the production of fertilisers. It is formed through the merger of several Japanese‑owned fertiliser‑related manufacturers:</p>
                 
@@ -26,9 +26,8 @@ function tfc(){
                 </ul>
             
         </div>
-        <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>   
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
-        
     )
 }
 

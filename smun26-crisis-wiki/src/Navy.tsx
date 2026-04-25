@@ -6,8 +6,8 @@ function Navy() {
     return (
         <div className='container'>
             <Sidebar />
-            <div style={{ flex: "5" }}>
-                <img src={NavyLogo}></img>
+            <div style={{flex:"1", minWidth:"0", display:"flex", flexDirection:"column", alignItems:"center", padding:"clamp(15px, 3vw, 30px)"}}>
+                <img src={NavyLogo} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>The Republic of China’s Navy is the maritime branch of the ROC’s military. Its origins, contrary to the ROC Army, trace back to the Imperial Qing Navy, when nearly the entire Qing fleet defected to the revolutionary forces under Sun Yat-Sen, and later, a commander on one of the ships, Huang Chung-ying, became the first Minister of the Navy of the Republic of China.
                 </p>
@@ -51,7 +51,7 @@ function Navy() {
 
                 
             </div>
-            <img src='/bestBanner.jpeg' style={{height:"100vh", width:"20vw", flex:"1", position:"sticky", top:"0", right:"0"}}/>
+            <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>
     )
 }
