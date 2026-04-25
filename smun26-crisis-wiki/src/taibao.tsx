@@ -1,13 +1,11 @@
 import "./App.css";
 import Sidebar from "./Sidebar";
-import Taibao from "/taibao.png";
 function taibao(){
     return(
     
             <div className='container'>
             <Sidebar/>
             <div style={{flex:"5"}}>
-                <img src={Taibao} className="topLogo"></img>
                 <h1>Introduction</h1>
                 <p>Established officially in 1933 by Yang Tianhuai, Taibao Electronics Private Limited (太保电器公司) operated in America throughout the Second World War as a light electronics manufacturing assembly, producing radios for the United Kingdom on the side of the allies. After the Second Sino-Japanese War, Taibao Electronics Pte Ltd moved its base of operations to Taiwan. 
 </p>

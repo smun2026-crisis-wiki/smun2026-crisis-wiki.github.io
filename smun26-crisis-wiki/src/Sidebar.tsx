@@ -10,20 +10,20 @@ function Sidebar() {
     return (
         <div className='sidebar'>
             <a href="#/">Homepage</a>
-            <a href="#/MOE">MOE</a>
+            <a href="#/MOE">Ministry of Education</a>
             <button onClick={() => setEconomicVisible(!economicVisible)}>
-                {economicVisible ? <><a className="headSelect" href="#/MOEA">MOEA</a><a href="#/central-trust-bureau">CTB</a></> : "Expand Economy"}
+                {economicVisible ? <><a className="headSelect" href="#/MOEA">Ministry of Economic Affairs</a><a href="#/central-trust-bureau">Central Trust Bureau</a></> : "Expand Economy"}
             </button>
-            <a href="#/MOTC">MOTC</a>
-            <a href="#/taiwan-railways-administration">TRA</a>
-            <a href="#/MOI">MOI</a>
-            <a href="#/central-bank-of-china">CBOC</a>
-            <a href="#/sino-american-joint-commission-on-rural-reconstruction">SA-JCRR</a>
+            <a href="#/MOTC">Ministry of Transportation and Communications</a>
+            <a href="#/taiwan-railways-administration">Taiwan Railways Administration</a>
+            <a href="#/MOI">Ministry of Interior</a>
+            <a href="#/central-bank-of-china">Central Bank of China</a>
+            <a href="#/sino-american-joint-commission-on-rural-reconstruction">Sino-American Joint Commission on Rural Reconstruction</a>
             <button onClick={() => setMilitaryVisible(!militaryVisible)}>
-                {militaryVisible ? <> <a className="headSelect" href="#/military">Military</a><a href="#/army">Army</a><a href="#/navy">Navy</a><a href="#/air-force">Air Force</a><a href="#/MND">MND</a> <a href="#/taipei-garrison">TGD</a><a href="#/historical-records-bureau">HRB</a><a href="#/logistics-department">Logistics</a><a href="#/PWD">PWD</a></> : "Expand Military"}
+                {militaryVisible ? <> <a className="headSelect" href="#/military">Military</a><a href="#/army">Army</a><a href="#/navy">Navy</a><a href="#/air-force">Air Force</a><a href="#/MND">Ministry of National Defense</a> <a href="#/taipei-garrison">Taipei Garrison</a><a href="#/historical-records-bureau">Historical Records Bureau</a><a href="#/logistics-department">Logistics Department</a><a href="#/PWD">Political Warfare Department</a></> : "Expand Military"}
             </button>
             <button onClick={()=> setIndustryVisible(!industryVisible)}>
-                {industryVisible ? <><a className="headSelect">Industry</a><a href="#/taiwan-shipbuilding-corporation">TSC</a><a href="#/taiwan-fertilizer-company">TFC</a><a href="#/chinese-federation-of-labour">CFL</a><a href="#/taipower">Taipower</a><a href="#/taibao">Taibao Electronics</a></> : "Expand Industry"}
+                {industryVisible ? <><a className="headSelect" href="#/industry">Industry</a><a href="#/taiwan-shipbuilding-corporation">Taiwan Shipbuilding Corporation</a><a href="#/taiwan-fertilizer-company">Taiwan Fertiliser Company</a><a href="#/chinese-federation-of-labour">Chinese Federation of Labour</a><a href="#/taipower">Taipower</a><a href="#/taibao">Taibao Electronics</a></> : "Expand Industry"}
             </button>
             <a href="#/lin-family"> Lin Family</a>
             <a href="#/gu-family"> Gu Family</a>
