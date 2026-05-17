@@ -22,9 +22,12 @@ import Taibao from './taibao';
 import Lin from './lin-family';
 import Gu from './gu-family';
 import Yang from './yang-family';
+import ChiefMagistrate from './chiefMagistrate.tsx';
 import MOI from './MOI';
 import MOE from './MOE';
 import MOEA from './MOEA';
+import MACW from './MACW';
+
 
 
 
@@ -52,6 +55,8 @@ const App = () => {
         <Route path='/sino-american-joint-commission-on-rural-reconstruction' element={<SAJCRR/>}/>
 
         <Route path='/central-trust-bureau' element={<CTB/>}/>
+        <Route path='/movement-for-the-advancement-of-chinese-women' element={<MACW/>}/>
+        <Route path='/chief-magistrate' element={<ChiefMagistrate/>}/>
 
         <Route path='/PWD' element={<PWD/>}/>
         <Route path='/chinese-federation-of-labour' element={<CFL/>}/>

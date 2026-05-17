@@ -19,7 +19,9 @@ function MOTC() {
                 <p>Administrators of the Ministry of Transportation and Communications include the Minister, Executive Vice Minister, and two administrative Vice Ministers. As of 1st May 1950, the Minister for the Ministry of Transportation and Communications is He Zhonghan (賀衷寒)</p>
                 <h2>Headquarter Departments</h2>
                 <ul>
-                    <li> <abbr title="Responsible for the administration of domestic and international tourism policy making, execution, and development" >Civil Aviation Administration</abbr></li>
+                    <li> <abbr title="Responsible for the administration of domestic and international tourism policy making, execution, and development" >Civil Aviation Administration</abbr>
+                    As of today, the only major international airport under the operation of the Civil Aviation Administration is the Matsuyama Airdrome, located in Taipei. 
+                    </li>
                     <li>Highway Bureau</li>
                     <li>Central Weather Administration</li>
                     <li><a href="#/Taiwan-Railways-Administration">Taiwan Railways Administration</a></li>

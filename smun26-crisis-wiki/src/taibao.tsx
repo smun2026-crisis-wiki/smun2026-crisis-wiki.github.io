@@ -7,7 +7,7 @@ function taibao(){
             <Sidebar/>
             <div style={{flex:"5"}}>
                 <h1>Introduction</h1>
-                <p>Established officially in 1933 by Yang Tianhuai, Taibao Electronics Private Limited (太保电器公司) operated in America throughout the Second World War as a light electronics manufacturing assembly, producing radios for the United Kingdom on the side of the allies. After the Second Sino-Japanese War, Taibao Electronics Pte Ltd moved its base of operations to Taiwan. 
+                <p>Established officially in 1933 by Yang Tianyi, Taibao Electronics Private Limited (太保电器公司) operated in America throughout the Second World War as a light electronics manufacturing assembly, producing radios for the United Kingdom on the side of the allies. After the Second Sino-Japanese War, Taibao Electronics Pte Ltd moved its base of operations to Taiwan. 
 </p>
 
                 <h1>Assets</h1>

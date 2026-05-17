@@ -13,6 +13,7 @@ function taipeiGarrison(){
                 <h1>Organisation</h1>
                 <p>Taipei Garrison Command is currently commanded by Commander-general Peng Mengqi (彭孟缉), and contains both officers and enlisted personnel from the Army, Military Police, Political Warfare, Intelligence Bureau, National Police Agency and Ministry of the Interior. For security reasons, all draftees are tagged and interviewed before undergoing recruit training.</p>
                 <p>Although it is recognised as a military division, Taipei Garrison Command actually functions as a secret police organisation, tasked with maintaining order on Taiwan through suppressing Communist sympathisers, Taiwan independence activists or pro-democracy activists. The last major incident that the organisation had to deal with was the 228 Incident.</p>
+                <p>Currently, the Taipei Garrison Command has around 500 well-trained troops, with another 250 individuals tagged as potential recruits.</p>
             </div>
             <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>

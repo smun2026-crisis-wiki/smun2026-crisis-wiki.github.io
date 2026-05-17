@@ -10,7 +10,16 @@ function Logistics(){
                 <img src={HRBLogo} className="topLogo"></img>
                 <h1>General Overview</h1>
                 <p>Army Logistics Division was established under Army Command Headquarters' organization structure in June 1st, 1946. However, it was impermanent suspended operation in July, 1949 due to Counter-Insurgency. In April 16th, 1950, it was Re-organized as "Fourth Department" in Feng Shan, Kaohsiung City. It is responsible for general logistics management: managing armaments, munitions, medical supplies, and within the ROC military.</p>
-                
+                <h2>Assets</h2>
+                As of right now, the Logistics Department has 200 active personnel with the following assets:
+                <ul>
+                    <li>Willys MG Jeeps</li>
+                    <li>First Aid Kits</li>
+                    <li>Drugs (like Penicilin and Ampicilin)</li>
+                    <li>General Ammunition Boxes</li>
+                </ul>
+
+
             </div>
             <img src='/bestBanner.jpeg' className='sideBanner'/>
         </div>

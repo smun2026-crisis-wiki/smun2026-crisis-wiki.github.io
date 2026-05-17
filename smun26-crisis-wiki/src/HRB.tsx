@@ -10,6 +10,7 @@ function HRB(){
                 <img src={HRBLogo} className="topLogo"></img>
                 <h1>General Overview</h1>
                 <p>Located at the General Staff Headquarters, the Historical Records Bureau is responsible for managing military archives, and includes sections for military history and translation. The Bureau manages records dating back to 1912 with the establishment of the Ministry of War. </p>
+                <p>So far, the Bureau contains and maintains around 100,000 records ranging from military operations to enlistment information. Sadly, the rest of the records were lost during the flight to Taiwan.</p>
                 
             </div>
             <img src='/bestBanner.jpeg' className='sideBanner'/>
